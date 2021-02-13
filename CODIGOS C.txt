@@ -1,0 +1,80 @@
+Vamos Praticar
+Sobre erros de lógica em programação, verifique os códigos a seguir em portugol e sinalize quais os problemas e as possíveis soluções que o programa pode ser feito para que não ocorra novamente os erros. Ao final, disponibilize sua resposta no fórum da seção “Compartilhe”.
+
+1) Neste algoritmo, será inserido dois números e ao final mostrará a soma, subtração, multiplicação e a divisão dos números lidos.
+
+algoritmo "Calculo"
+
+var
+
+  n1, n2: real
+
+inicio
+
+  escreva("Digite o primeiro número: ")
+
+  leia(n1)
+
+  escreva("Digite o segundo número: ")
+
+  leia(n2)
+
+  escreva("A soma é: ",n1-n2)
+
+  escreva("A subtração é: ",n1+n2)
+
+  escreva("A multiplicação é: ",n1/n2)
+
+  escreva("A divisão é: ",n1*n2)
+
+fimalgoritmo
+
+2) Em uma escola, foi solicitado que criasse um programa que lesse as notas dos quatro bimestres de um determinado aluno e que se a média fosse acima de 6 estaria aprovado, caso não alcançasse, estaria reprovado.
+
+algoritmo "media_aluno"
+
+var
+
+  n1, n2, n3, n4 : inteiro
+
+  media: real
+
+  aluno : caracter
+
+inicio
+
+  escreva ("Digite o nome do aluno: ")
+
+  leia (aluno)
+
+  escreva ("Digite a Primeira nota: ")
+
+  leia (n1)
+
+  escreva ("Digite a Segunda nota : ")
+
+  leia (n2)
+
+  escreva ("Digite a Terceira nota: ")
+
+  leia (n3)
+
+  escreva ("Digite a Quarta nota  : ")
+
+  leia (n4)
+
+  media <= (n1 + n2+ n3 + n4) / 4
+
+  escreva ("A média final é: ", media)
+
+  se media <- 6 entao
+
+  Escreva (" O aluno ",aluno, " passou !")
+
+  senao
+
+  escreva (" O aluno ",aluno, " reprovou")
+
+  fimse
+
+fimalgoritmo
